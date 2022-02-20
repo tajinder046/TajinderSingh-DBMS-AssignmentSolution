@@ -2,7 +2,7 @@ create database TravelOnTheGo;
 use TravelOnTheGo;
 create table `PASSENGER`
 (
-`Passenger_name` varchar (50) not null primary key,
+`Passenger_name` varchar (50) not null,
  `Category` varchar(30),
  `Gender` varchar(50),
  `Boarding_City` varchar(40), 
